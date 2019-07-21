@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF7DA"
+    android:orientation="vertical"
+    tools:context="com.example.shoaib.miwokapp.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_number">
+
+        <TextView
+            android:id="@+id/clickNumber"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="12dp"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:text="@string/numbers"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_members">
+
+        <TextView
+            android:id="@+id/clickMembers"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="12dp"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:text="@string/family_members"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_color">
+
+        <TextView
+            android:id="@+id/clickColor"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="12dp"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:text="@string/colors"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_phrases">
+
+        <TextView
+            android:id="@+id/clickPhrases"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="12dp"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:text="@string/phrases"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+</LinearLayout>
